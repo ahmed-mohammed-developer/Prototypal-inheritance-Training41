@@ -150,7 +150,7 @@ wait(2_000).then(data => {
 wait(3_000).then(sec => {
   console.log(sec);
 })
-*/
+
 const alll = () => {
   return new Promise((resolev, reject) => {
     reject("حطا")
@@ -201,3 +201,10 @@ const person = {
 };
 const ssss = JSON.stringify(person);
 console.log(ssss)
+*/
+
+function reverse_words(str1, str2) {
+  // write your code here
+    return `${str2}, ${str1}`
+}
+console.log(reverse_words("test", "one"))
